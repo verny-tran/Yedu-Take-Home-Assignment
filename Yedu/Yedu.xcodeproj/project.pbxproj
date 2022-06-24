@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6354932864B12A000ABD87 /* YeduApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354922864B12A000ABD87 /* YeduApp.swift */; };
+		7B6354952864B12A000ABD87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354942864B12A000ABD87 /* ContentView.swift */; };
+		7B6354972864B12C000ABD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6354962864B12C000ABD87 /* Assets.xcassets */; };
+		7B63549A2864B12C000ABD87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6354992864B12C000ABD87 /* Preview Assets.xcassets */; };
+		7B63549C2864B12C000ABD87 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B63549B2864B12C000ABD87 /* Persistence.swift */; };
+		7B63549F2864B12C000ABD87 /* Yedu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B63549D2864B12C000ABD87 /* Yedu.xcdatamodeld */; };
+		7B6354AA2864B12C000ABD87 /* YeduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354A92864B12C000ABD87 /* YeduTests.swift */; };
+		7B6354B42864B12C000ABD87 /* YeduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354B32864B12C000ABD87 /* YeduUITests.swift */; };
+		7B6354B62864B12C000ABD87 /* YeduUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354B52864B12C000ABD87 /* YeduUITestsLaunchTests.swift */; };
+		7B6354C32864B6E4000ABD87 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354C22864B6E4000ABD87 /* ViewModel.swift */; };
+		7B6354C72864E491000ABD87 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354C62864E491000ABD87 /* Model.swift */; };
+		7B6354CD2864EF75000ABD87 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354CC2864EF75000ABD87 /* CardView.swift */; };
+		7B6354D12865067B000ABD87 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6354D02865067B000ABD87 /* DetailView.swift */; };
+		7BE002AD28651AC8008CF91C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE002AC28651AC8008CF91C /* AddView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6354A62864B12C000ABD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6354872864B12A000ABD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B63548E2864B12A000ABD87;
+			remoteInfo = Yedu;
+		};
+		7B6354B02864B12C000ABD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6354872864B12A000ABD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B63548E2864B12A000ABD87;
+			remoteInfo = Yedu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B63548F2864B12A000ABD87 /* Yedu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yedu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6354922864B12A000ABD87 /* YeduApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeduApp.swift; sourceTree = "<group>"; };
+		7B6354942864B12A000ABD87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B6354962864B12C000ABD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B6354992864B12C000ABD87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B63549B2864B12C000ABD87 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7B63549E2864B12C000ABD87 /* Yedu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yedu.xcdatamodel; sourceTree = "<group>"; };
+		7B6354A02864B12C000ABD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6354A52864B12C000ABD87 /* YeduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6354A92864B12C000ABD87 /* YeduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeduTests.swift; sourceTree = "<group>"; };
+		7B6354AF2864B12C000ABD87 /* YeduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6354B32864B12C000ABD87 /* YeduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeduUITests.swift; sourceTree = "<group>"; };
+		7B6354B52864B12C000ABD87 /* YeduUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeduUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B6354C22864B6E4000ABD87 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7B6354C62864E491000ABD87 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7B6354CC2864EF75000ABD87 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7B6354D02865067B000ABD87 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7BE002AC28651AC8008CF91C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B63548C2864B12A000ABD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6354A22864B12C000ABD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6354AC2864B12C000ABD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6354862864B12A000ABD87 = {
+			isa = PBXGroup;
+			children = (
+				7B6354912864B12A000ABD87 /* Yedu */,
+				7B6354A82864B12C000ABD87 /* YeduTests */,
+				7B6354B22864B12C000ABD87 /* YeduUITests */,
+				7B6354902864B12A000ABD87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6354902864B12A000ABD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B63548F2864B12A000ABD87 /* Yedu.app */,
+				7B6354A52864B12C000ABD87 /* YeduTests.xctest */,
+				7B6354AF2864B12C000ABD87 /* YeduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6354912864B12A000ABD87 /* Yedu */ = {
+			isa = PBXGroup;
+			children = (
+				7B6354922864B12A000ABD87 /* YeduApp.swift */,
+				7B6354942864B12A000ABD87 /* ContentView.swift */,
+				7BE002AC28651AC8008CF91C /* AddView.swift */,
+				7B6354D02865067B000ABD87 /* DetailView.swift */,
+				7B6354CC2864EF75000ABD87 /* CardView.swift */,
+				7B6354C62864E491000ABD87 /* Model.swift */,
+				7B6354C22864B6E4000ABD87 /* ViewModel.swift */,
+				7B6354962864B12C000ABD87 /* Assets.xcassets */,
+				7B63549B2864B12C000ABD87 /* Persistence.swift */,
+				7B6354A02864B12C000ABD87 /* Info.plist */,
+				7B63549D2864B12C000ABD87 /* Yedu.xcdatamodeld */,
+				7B6354982864B12C000ABD87 /* Preview Content */,
+			);
+			path = Yedu;
+			sourceTree = "<group>";
+		};
+		7B6354982864B12C000ABD87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B6354992864B12C000ABD87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B6354A82864B12C000ABD87 /* YeduTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6354A92864B12C000ABD87 /* YeduTests.swift */,
+			);
+			path = YeduTests;
+			sourceTree = "<group>";
+		};
+		7B6354B22864B12C000ABD87 /* YeduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6354B32864B12C000ABD87 /* YeduUITests.swift */,
+				7B6354B52864B12C000ABD87 /* YeduUITestsLaunchTests.swift */,
+			);
+			path = YeduUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B63548E2864B12A000ABD87 /* Yedu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6354B92864B12C000ABD87 /* Build configuration list for PBXNativeTarget "Yedu" */;
+			buildPhases = (
+				7B63548B2864B12A000ABD87 /* Sources */,
+				7B63548C2864B12A000ABD87 /* Frameworks */,
+				7B63548D2864B12A000ABD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yedu;
+			productName = Yedu;
+			productReference = 7B63548F2864B12A000ABD87 /* Yedu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B6354A42864B12C000ABD87 /* YeduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6354BC2864B12C000ABD87 /* Build configuration list for PBXNativeTarget "YeduTests" */;
+			buildPhases = (
+				7B6354A12864B12C000ABD87 /* Sources */,
+				7B6354A22864B12C000ABD87 /* Frameworks */,
+				7B6354A32864B12C000ABD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6354A72864B12C000ABD87 /* PBXTargetDependency */,
+			);
+			name = YeduTests;
+			productName = YeduTests;
+			productReference = 7B6354A52864B12C000ABD87 /* YeduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B6354AE2864B12C000ABD87 /* YeduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6354BF2864B12C000ABD87 /* Build configuration list for PBXNativeTarget "YeduUITests" */;
+			buildPhases = (
+				7B6354AB2864B12C000ABD87 /* Sources */,
+				7B6354AC2864B12C000ABD87 /* Frameworks */,
+				7B6354AD2864B12C000ABD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6354B12864B12C000ABD87 /* PBXTargetDependency */,
+			);
+			name = YeduUITests;
+			productName = YeduUITests;
+			productReference = 7B6354AF2864B12C000ABD87 /* YeduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6354872864B12A000ABD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7B63548E2864B12A000ABD87 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					7B6354A42864B12C000ABD87 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7B63548E2864B12A000ABD87;
+					};
+					7B6354AE2864B12C000ABD87 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7B63548E2864B12A000ABD87;
+					};
+				};
+			};
+			buildConfigurationList = 7B63548A2864B12A000ABD87 /* Build configuration list for PBXProject "Yedu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6354862864B12A000ABD87;
+			productRefGroup = 7B6354902864B12A000ABD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B63548E2864B12A000ABD87 /* Yedu */,
+				7B6354A42864B12C000ABD87 /* YeduTests */,
+				7B6354AE2864B12C000ABD87 /* YeduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B63548D2864B12A000ABD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B63549A2864B12C000ABD87 /* Preview Assets.xcassets in Resources */,
+				7B6354972864B12C000ABD87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6354A32864B12C000ABD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6354AD2864B12C000ABD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B63548B2864B12A000ABD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6354C32864B6E4000ABD87 /* ViewModel.swift in Sources */,
+				7B6354D12865067B000ABD87 /* DetailView.swift in Sources */,
+				7BE002AD28651AC8008CF91C /* AddView.swift in Sources */,
+				7B63549F2864B12C000ABD87 /* Yedu.xcdatamodeld in Sources */,
+				7B63549C2864B12C000ABD87 /* Persistence.swift in Sources */,
+				7B6354952864B12A000ABD87 /* ContentView.swift in Sources */,
+				7B6354932864B12A000ABD87 /* YeduApp.swift in Sources */,
+				7B6354C72864E491000ABD87 /* Model.swift in Sources */,
+				7B6354CD2864EF75000ABD87 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6354A12864B12C000ABD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6354AA2864B12C000ABD87 /* YeduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6354AB2864B12C000ABD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6354B42864B12C000ABD87 /* YeduUITests.swift in Sources */,
+				7B6354B62864B12C000ABD87 /* YeduUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6354A72864B12C000ABD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B63548E2864B12A000ABD87 /* Yedu */;
+			targetProxy = 7B6354A62864B12C000ABD87 /* PBXContainerItemProxy */;
+		};
+		7B6354B12864B12C000ABD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B63548E2864B12A000ABD87 /* Yedu */;
+			targetProxy = 7B6354B02864B12C000ABD87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B6354B72864B12C000ABD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B6354B82864B12C000ABD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6354BA2864B12C000ABD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yedu/Preview Content\"";
+				DEVELOPMENT_TEAM = RY8386429N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortraitUpsideDown;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamsick.Yedu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B6354BB2864B12C000ABD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yedu/Preview Content\"";
+				DEVELOPMENT_TEAM = RY8386429N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortraitUpsideDown;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamsick.Yedu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B6354BD2864B12C000ABD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY8386429N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamsick.YeduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yedu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yedu";
+			};
+			name = Debug;
+		};
+		7B6354BE2864B12C000ABD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY8386429N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamsick.YeduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yedu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yedu";
+			};
+			name = Release;
+		};
+		7B6354C02864B12C000ABD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY8386429N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamsick.YeduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yedu;
+			};
+			name = Debug;
+		};
+		7B6354C12864B12C000ABD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RY8386429N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamsick.YeduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yedu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B63548A2864B12A000ABD87 /* Build configuration list for PBXProject "Yedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6354B72864B12C000ABD87 /* Debug */,
+				7B6354B82864B12C000ABD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6354B92864B12C000ABD87 /* Build configuration list for PBXNativeTarget "Yedu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6354BA2864B12C000ABD87 /* Debug */,
+				7B6354BB2864B12C000ABD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6354BC2864B12C000ABD87 /* Build configuration list for PBXNativeTarget "YeduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6354BD2864B12C000ABD87 /* Debug */,
+				7B6354BE2864B12C000ABD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6354BF2864B12C000ABD87 /* Build configuration list for PBXNativeTarget "YeduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6354C02864B12C000ABD87 /* Debug */,
+				7B6354C12864B12C000ABD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B63549D2864B12C000ABD87 /* Yedu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B63549E2864B12C000ABD87 /* Yedu.xcdatamodel */,
+			);
+			currentVersion = 7B63549E2864B12C000ABD87 /* Yedu.xcdatamodel */;
+			path = Yedu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7B6354872864B12A000ABD87 /* Project object */;
+}
